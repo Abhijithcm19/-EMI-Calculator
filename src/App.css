@@ -1,0 +1,40 @@
+.App {
+  width: 95%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.slider{
+  width: 100%;
+}
+
+.lables{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tenurecontainer{
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+}
+
+.tenure{
+  width: 15%;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(226, 226, 226);
+}
+
+.selected{
+  background-color: #009ad6;
+  color: white;
+}
